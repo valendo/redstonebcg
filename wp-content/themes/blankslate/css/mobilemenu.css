@@ -1,0 +1,42 @@
+/*
+Responsive Mobile Menu v1.0
+Plugin URI: responsivemobilemenu.com
+
+Author: Sergio Vitov
+Author URI: http://xmacros.com
+
+License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
+
+*/
+.rmm {	display:block;position:relative;width:100%;	padding:0px;margin:0 auto !important;text-align: center;
+	line-height:19px !important; text-transform:uppercase}
+.rmm * {-webkit-tap-highlight-color:transparent !important;	font-family:Arial;}
+.rmm a {color:#fff;	text-decoration:none; font-size:15px;font-family: Roboto, sans-serif, Arial; text-transform:uppercase}
+.rmm .rmm-main-list, .rmm .rmm-main-list li {margin:0px;padding:0px;}
+.rmm ul {display:block;	width:auto !important;margin:0 auto !important;overflow:hidden;list-style:none;}
+
+/* sublevel menu - in construction */
+.rmm ul li ul, .rmm ul li ul li, .rmm ul li ul li a {display:none !important;height:0px !important;width:0px !important;}
+/* */
+.rmm .rmm-main-list li {display:inline;	padding:padding:0px;margin:0px !important;}
+.rmm-toggled {display:none;	width:100%;	position:relative;	overflow:hidden;margin:0 auto !important;}
+.rmm-button:hover {	cursor:pointer;}
+.rmm .rmm-toggled ul {display:none;	margin:0px !important;padding:0px !important;}
+.rmm .rmm-toggled ul li {display:block;	margin:0 auto !important;}
+
+/* GRAPHITE STYLE */
+
+.rmm.graphite .rmm-main-list li a {	display:inline-block;	padding:8px 30px 8px 30px;}
+.rmm.graphite .rmm-main-list li a:hover,.rmm.graphite .rmm-main-list li a.active { background:url(../img/line_nav.png) right center no-repeat; color:#f0ff00}
+
+.rmm.graphite .rmm-toggled {width:95%;background-color:#fff; min-height:36px;	border-radius:6px;}
+.rmm.graphite .rmm-toggled-controls {display:block;height:36px;	color:333;text-align:left;position:relative;border-radius:6px;}
+.rmm.graphite .rmm-toggled-title {position:relative;top:9px;left:15px;font-size:16px;color:fff;text-shadow:1px 1px 1px #fff;}
+.rmm.graphite .rmm-button {display:block;position:absolute;right:15px;top:8px;}
+
+.rmm.graphite .rmm-button span {display:block;margin-top:4px;height:2px;background:#cc3333;width:24px;}
+.rmm.graphite .rmm-toggled ul li a {display:block;width:100%;background-color:#F7F7F7;text-align:center;padding:10px 0px 10px 0px;	border-top:1px solid #DFDFDF;text-shadow:1px 1px 1px #fff; color:#333}
+.rmm.graphite .rmm-toggled ul li a:active,.rmm.graphite .rmm-toggled ul li a:hover {background-color:#D4D4D4;color:#333}
+
+
+

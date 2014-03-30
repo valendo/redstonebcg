@@ -1,0 +1,140 @@
+/*css*/
+@import"../css/reset.css";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700&subset=latin,cyrillic-ext);
+body {color: #333333;position: relative;background:#fff;font-family: Roboto, sans-serif, Arial;line-height:28px; font-style: normal; font-weight:300;font-size: 16px; }
+* { -webkit-text-size-adjust: none; margin:0; padding:0}
+a { color: inherit; text-decoration: none;}
+a:hover { text-decoration: none;}
+a[href^="tel:"] {color: inherit;text-decoration:none;}
+
+.pagewrap {	width: 940px; margin:0 auto; position:relative; overflow:hidden; padding:50px 0}
+.row{ overflow:hidden; margin-bottom:5px; padding-bottom:5px}
+.red { color:#F00}
+.right { float:right}
+.left { float:left}
+.padbot20{ padding-bottom:20px}
+.titletop { font-size:40px; padding-bottom:20px; border-bottom:2px solid #ccc; margin-bottom:40px; text-transform:uppercase; font-weight:300}
+.boxmap { margin-bottom:30px;}
+.boxmap .img { width:100%}
+.map { width:100%; height:350px;}
+
+/*==== header =========*/
+header { background-color:#c02329}
+header .headwrap {width: 940px; margin:0 auto; position:relative; overflow:hidden}
+header .logo {float: left; background:url(../img/logo.png) no-repeat; width:225px; height:106px; text-indent:-999px}
+header .nav {float:right; overflow:hidden; display:inline-block; line-height:106px}
+header .nav li { float: left; display:inline; margin-left:30px;}
+header .nav li a { color:#fff; font-size:18px}
+header .nav li a:hover,header .nav li.current_page_item a {color:#f0ff00}
+
+/*=====banner ====*/
+.bannerhome{ background:#c9c9c9 url(../img/banner-home.jpg) center top no-repeat; height:345px}
+.subbanner {width: 940px; margin:0 auto; position:relative; overflow:hidden}
+.subbanner .boxtext { padding-top:70px; float:left; width:380px; font-size:14px}
+.subbanner .boxtext .acticle { font-size:18px; font-weight:bold; color:#cc3333; margin-bottom:10px; text-transform:uppercase}
+.subbanner .boxtext p { margin-bottom:10px}
+
+/*=====Container ====*/
+.container { background:url(../img/bg.jpg) center top no-repeat; padding-top:70px;}
+.container .wrapper {width: 940px; margin:0 auto}
+
+.title { line-height:75px;background:#1f2938; padding-left:40px;-moz-border-radius-topleft: 5px;-webkit-border-top-left-radius: 5px;
+ border-top-left-radius: 5px;-moz-border-radius-topright: 5px;-webkit-border-top-right-radius: 5px;border-top-right-radius: 5px;}
+.title span { font-size:20px; font-style:normal; color:#fff; text-transform:uppercase}
+.content { background-color:#fff; padding:30px; overflow:hidden;}
+.content h3 { font-size:20px; font-style:normal; color:#c02329; text-transform:uppercase; margin-bottom:30px}
+.content h2{ text-transform:uppercase; font-weight:bold; margin-bottom:20px;}
+.marbot30 { margin-bottom:30px;}
+.content .marbot30{ margin-bottom:30px;}
+.content .listcont { padding-left:40px; list-style:circle;}
+.content .listcont li { margin-bottom:20px}
+
+
+/*=====   footer ========*/
+.footer { background:#1f2938; padding:30px 0}
+.footer .subfooter { width: 940px; margin:0 auto; color:#fff;font-size:14px; overflow:hidden}
+.footer .subfooter .boxleft { float:left; width:420px;}
+.footer .subfooter .boxright { float:right; width:500px;}
+.footer .subfooter span { padding: 0 5px}
+.footer .subfooter a { color:#fff}
+.footer .subfooter a:hover,.footer .subfooter a.active {color:#f0ff00}
+
+.footer .subfooter .social { float:right}
+.footer .subfooter .social a { text-align:center; margin:0 5px}
+.footer p { margin-bottom:5px}
+.subscribe {display:inline-block;margin-top:10px;}
+.subscribe .input { display:inline-block; width:170px; height:25px; line-height:25px; -moz-border-radius:3px;-webkit-border-radius:3px;	border-radius:3px; background-color:#e6e6e6; border:1px solid #fff; margin:0 5px;}
+.subscribe .btsubmit{ text-transform:uppercase; border:1px solid #fff; text-align:center; padding:0 10px; height:27px; line-height:25px; color:#fff;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e01818), color-stop(1, #fb4141));
+	background:-moz-linear-gradient(top, #e01818 5%, #fb4141 100%);
+	background:-webkit-linear-gradient(top, #e01818 5%, #fb4141 100%);
+	background:-o-linear-gradient(top, #e01818 5%, #fb4141 100%);
+	background:-ms-linear-gradient(top, #e01818 5%, #fb4141 100%);
+	background:linear-gradient(to bottom, #e01818 5%, #fb4141 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#fb4141',GradientType=0);
+	background-color:#e01818; -moz-border-radius:3px;-webkit-border-radius:3px;	border-radius:3px; margin-left:5px; cursor:pointer}
+.subscribe .btsubmit:hover {background-color:#d70303; color:#f0ff00}
+/*=== end footer ====*/
+/*==================Page insurrance =====================*/
+.slicknav_menu {display:none;}
+
+#whatwedo .sidebar { width:280px; border-right:1px #ccc dashed;  float:left; padding-right:10px}
+#whatwedo .sidebar .titleblock { font-size:20px; margin-bottom:10px;}
+#whatwedo .sidebar .listblock { margin-bottom:50px;}
+#whatwedo .sidebar  a { color:#333; display:block;}
+#whatwedo .sidebar  a:hover {color: #cc3333;}
+#whatwedo .sidebar .listblock li a{ padding-right:20px; padding-left:10px;}
+
+#whatwedo .sidebar .listblock ul li a{ padding-left:20px !important; font-size:13px;}
+#whatwedo .sidebar .listblock li a:hover{background-color:#eaeaea;}
+#whatwedo .sidebar .active.nomal {background:url(../img/ad.png) no-repeat center right !important; }
+#whatwedo .sidebar .nomal {background:url(../img/down1.png) no-repeat center right; }      
+#whatwedo .sidebar ul {list-style: none;}		
+#whatwedo .contwhatwedo { width:550px; float:right; text-align:justify}
+#whatwedo .contwhatwedo h1.act { font-size:40px; color:#122d62; margin-bottom:30px;}
+#whatwedo .contwhatwedo .block ul { padding-left:40px}
+/*===== contact us ========*/
+.required { color:#33485f; font-weight:bold; margin-bottom:30px; margin-top:30px}
+.required .row{ overflow:hidden; line-height:25px; margin-bottom:10px}
+.form label { width:220px; float:left; margin-right:10px; text-align:right; font-size:14px}
+.form label span { color:#F00}
+.form input[type="text"],.form input[type="email"] { width:250px; float:right;line-height:25px; height:25px}
+.form  textarea { width:250px; float:right; border:1px solid #ccc; line-height:25px;}
+.form .bt{ width:272px; float:right; border:none;}
+.form .overf {width:272px; float:right; overflow:hidden; margin-bottom:10px; padding-left:7px}
+.form .overf .mar20{ margin-left:20px}
+.erro{ color:#F00; float:right;width:270px;}
+.infocontact { overflow:hidden}
+.contform { width: 520px; float:left}
+
+.contperson { float:right; width:300px; font-weight:400}
+.contperson > div { margin-bottom:50px}
+.contperson .trans { text-transform:uppercase; color:#C00}
+.contperson a{ color:#003077; font-weight:300}
+
+/*hack menu*/
+ul.show
+{
+	display: block !important;
+}
+a.selected{
+	background-color: #eaeaea;
+	color:#CC3333 !important;
+}
+.container{
+	min-height: 600px;
+}
+.contwhatwedo .block
+{
+	min-height: 600px;
+}
+.wrapper .content{
+	min-height: 600px;
+}
+
+/*hack contact form*/
+span.wpcf7-not-valid-tip {
+    display: inline !important;
+    float: right;
+    clear: both;
+}

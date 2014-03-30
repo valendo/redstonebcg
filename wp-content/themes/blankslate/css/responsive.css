@@ -1,0 +1,60 @@
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 940px) {
+.pagewrap {	width: 94%; position:relative; overflow:hidden; padding:30px 0}
+.boxquote {overflow:hidden; width:470px; margin: 0 auto; float:none;}
+}
+
+/* for 700px or less */
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+header .headwrap {width: 94% !important;}
+header .call { font-size:19px; color:#333; float:right; padding-top:20px;}
+.pagewrap {	width: 94%; position:relative; overflow:hidden; padding:30px 0}
+.footer .subfooter { width: 100%; margin:0 auto; color:#fff; text-align:center; font-size:14px}
+.boxquote {overflow:hidden; width:470px; margin: 0 auto; float:none;}
+.chatwidth { display:none}
+.infocontact .contform { width:70%;}
+.contperson { float:none; width:100%; padding-top:0px}
+.contperson > div { margin-bottom:20px}
+.contperson p { text-transform:uppercase; color:#C00}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	
+body {font-size: 14px;font-family: Roboto, sans-serif, Arial;font-style:normal;line-height:26px}
+header .headwrap {width: 94% !important;}
+header .call { font-size:18px; color:#333; float:none; padding-top:5px}
+header .logo {float: none; width:100% !important}
+header .logo img { width:40%}
+.pagewrap {	width: 94%; position:relative; overflow:hidden; padding:30px 0}
+.boxquote {overflow:hidden; width:100%; margin: 0 auto;float:none;}
+.boxquote .boximg { width:234px; height:234px; float:none; overflow:hidden; margin: 0 auto; margin-bottom:1px}
+.boxquote .boximg  img {width: 100%; -webkit-transition: all 1s ease;-moz-transition: all 1s ease;-o-transition: all 1s ease;-ms-transition: all 1s ease;transition: all 1s ease;} 
+.boxquote .boximg img:hover { width: 100%;}
+.boxquote .boxtext {width:204px; height:204px; float:none; margin-bottom:1px; overflow:hidden; margin: 0 auto; padding:15px; color:#fff; margin-bottom:1px}
+.boxinfo .acticle { border-bottom:1px solid #CCC; height:15px; text-align:center; margin-bottom:50px}
+.boxinfo .acticle span { padding:0 20px; background-color:#eaeaea; font-size:25px; font-style:normal; font-weight:300 }
+.boxinfo p { margin-bottom:15px; text-align:center}
+.footer .subfooter { width: 100%; margin:0 auto; color:#fff; text-align:center; font-size:14px}
+.footer .subfooter .hide { display:none}
+
+.chatwidth { display:none}
+.titletop { font-size:30px; padding-bottom:10px; border-bottom:2px solid #ccc; margin-bottom:20px; text-transform:uppercase; font-weight:300}
+.contform { width: 100%; float: none; text-align:left}
+.contperson { float:none; width:100%; padding-top:0px}
+.contperson > div { margin-bottom:20px}
+.contperson p { text-transform:uppercase; color:#C00}
+
+.contquote{ width: 100%;}
+.required .row{line-height:25px; margin-bottom:10px}
+.form label { width:100%; float:none; margin-right:20px; text-align:left; display:block}
+.form label span { color:#F00}
+.form input[type="text"] { width:90% !important; float:none; border:1px solid #ccc; line-height:25px; height:25px}
+.form  textarea { width:90%; float:none; border:1px solid #ccc; line-height:25px;}
+.form .bt{ width:60%; float: none;}
+}

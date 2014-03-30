@@ -1,0 +1,88 @@
+/*
+Responsive Mobile Menu v1.0
+Plugin URI: responsivemobilemenu.com
+
+Author: Sergio Vitov
+Author URI: http://xmacros.com
+
+License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
+
+*/
+
+/*==== menu mobile =====*/
+.rmm {	display:block;position:relative;width:100%;	padding:0px;margin:0 auto !important;text-align: center;
+	line-height:19px !important; text-transform:uppercase}
+.rmm * {-webkit-tap-highlight-color:transparent !important;	font-family:Arial;}
+.rmm a {color:#fff;	text-decoration:none; font-size:15px;font-family: Roboto, sans-serif, Arial; text-transform:uppercase}
+.rmm .rmm-main-list, .rmm .rmm-main-list li {margin:0px;padding:0px;}
+.rmm ul {display:block;	width:auto !important;margin:0 auto !important;overflow:hidden;list-style:none;}
+
+/* sublevel menu - in construction */
+.rmm ul li ul, .rmm ul li ul li, .rmm ul li ul li a {display:none !important;height:0px !important;width:0px !important;}
+/* */
+.rmm .rmm-main-list li {display:inline;	padding:padding:0px;margin:0px !important;}
+.rmm-toggled {display:none;	width:100%;	position:relative;	overflow:hidden;margin:0 auto !important;}
+.rmm-button:hover {	cursor:pointer;}
+.rmm .rmm-toggled ul {display:none;	margin:0px !important;padding:0px !important;}
+.rmm .rmm-toggled ul li {display:block;	margin:0 auto !important;}
+
+/* GRAPHITE STYLE */
+
+.rmm.graphite .rmm-main-list li a {	display:inline-block;	padding:8px 30px 8px 30px;}
+.rmm.graphite .rmm-main-list li a:hover,.rmm.graphite .rmm-main-list li a.active { background:url(../img/line_nav.png) right center no-repeat; color:#f0ff00}
+
+.rmm.graphite .rmm-toggled {width:95%;background-color:#fff; min-height:36px;	border-radius:6px;}
+.rmm.graphite .rmm-toggled-controls {display:block;height:36px;	color:333;text-align:left;position:relative;border-radius:6px;}
+.rmm.graphite .rmm-toggled-title {position:relative;top:9px;left:15px;font-size:16px;color:fff;text-shadow:1px 1px 1px #fff; color:#CC3333}
+.rmm.graphite .rmm-button {display:block;position:absolute;right:15px;top:8px;}
+
+.rmm.graphite .rmm-button span {display:block;margin-top:4px;height:2px;background:#cc3333;width:24px;}
+.rmm.graphite .rmm-toggled ul li a {display:block;width:100%;background-color:#F7F7F7;text-align:center;padding:10px 0px 10px 0px;	border-top:1px solid #DFDFDF;text-shadow:1px 1px 1px #fff; color:#333}
+.rmm.graphite .rmm-toggled ul li a:active,.rmm.graphite .rmm-toggled ul li a:hover {background-color:#D4D4D4;color:#333}
+
+
+/*===== hover eff partners =======*/
+article.da-animate {-webkit-transition: all 0.2s ease;	-moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;	-ms-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;position: absolute;background:url(../img/image_hover.png) repeat;	width: 100%;height: 100%;}
+/* Initial state classes: */
+.da-slideFromTop {left: 0px;top: -100%;}
+.da-slideFromBottom {left: 0px;	top: 100%;}
+.da-slideFromLeft {	top: 0px;left: -100%;}
+.da-slideFromRight {top: 0px;left: 100%;}
+/* Final state classes: */
+.da-slideTop {top: 0px;}
+.da-slideLeft {left: 0px;}
+.link_post{display:block;width:72px;height:72px;background:url(../img/link.png) no-repeat; position:absolute; top:28%; left:36%;-webkit-transition: all 0.2s ease;	-moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;	-ms-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;}
+.link_post:hover { background-position:bottom center}
+
+/*=== chat wit box =====*/
+.btlivechat { background:url(../img/livechat.jpg) no-repeat; width:150px; height:36px;	position: fixed;bottom:0; right:0px; text-indent:-999px; overflow:hidden; z-index:9999;-webkit-animation: btlivechat-animation 1s 1 ease-in-out;-moz-animation: btlivechat-animation 1s 1 ease-in-out;-o-animation: btlivechat-animation 1s 1 ease-in-out;-ms-animation: btlivechat-animation 2s 1 ease-in-out; animation: btlivechat-animation 1s 1 ease-in-out;}
+/* WebKit Animations */
+@-webkit-keyframes btlivechat-animation  {0%   {opacity: 0; right:-152px}100% {opacity: 1; right:0}}
+/* FireFox Animations */
+@-moz-keyframes btlivechat-animation  {	0%   {opacity: 0; right:-152px}100% {opacity: 1; right:0}}
+/* Opera Animations */
+@-o-keyframes btlivechat-animation  {0%   {opacity: 0; right:-152px}100% {opacity: 1; right:0}}
+/* IE Animations */
+@-ms-keyframes btlivechat-animation {0%   {opacity: 0; right:-152px}100% {opacity: 1; right:0}}
+
+
+.live-chat { background:#FFFFFF; bottom: 0; position: fixed; right: -305px; z-index: 20;border: 1px solid #D3D3D3;   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.18); width:300px; line-height:20px}
+.live-chat .block-heading {font-size: 14px;line-height: 30px; background: none repeat scroll 0 0 #F1F1F1;}
+.live-chat .block-content { padding: 20px 28px}
+.live-chat .block-heading a.btn-close { background:#DE4A4A url(../img/Cancel.png) center no-repeat; display: inline-block; padding: 0 13px;}
+.live-chat .erro { color:#F00; margin-bottom:5px}
+.live-chat .block-heading a.btn-close:hover { background-color:#00a7ed}
+.live-chat .block-heading strong { margin-left:10px; font-weight:400}
+.live-chat .box-monster { overflow: hidden; padding: 0 0 1em;}
+.live-chat .box-monster .img-monster { float: left;margin-right: 1em;}
+.live-chat .box-monster .img-monster img { height: 44px; width: 51px;}
+.live-chat .box-monster span { font-size:14px}
+.live-chat .live-chat-form .form-group { margin: 0 0 8px;}
+.live-chat .live-chat-form input[type="text"]{ font-size: 14px;  padding: 3px 0 7px 10px; width:227px;}
+.live-chat .live-chat-form .btn { margin-top: 12px;width:240px; border:none}
+.live-chat .call { font-size:14px}
+.live-chat .call strong { color:#3399CC; font-size:18px}
+
+
+/*==== sidebar ====*/
+.btsidebar { background:url(../img/isurranbt.png) no-repeat; width:28px; height:164px; position:fixed; left:0px; top:50%; text-indent:-999px; overflow:hidden; z-index:9999}

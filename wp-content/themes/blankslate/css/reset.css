@@ -1,0 +1,42 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var {   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);   border: 0 none;   font-size: 100%;   margin: 0;   outline: 0 none;   padding: 0;  vertical-align: top;}
+
+blockquote, q {   quotes: none;}
+table, table td {  border: medium none;  border-collapse: collapse;   padding: 0;}
+img {  vertical-align: top;}
+embed {  vertical-align: top;}
+input[type="text"], textarea {   border-radius: 0 0 0 0;   outline: medium none;}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea { border:1px solid #ccc;  background-color:#fff; padding:0 10px; color:#666666;font-family: Roboto, sans-serif, Arial; cursor:pointer;outline: none}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus{ border-color: #ea5946; box-shadow: 0 0 1px #ea5946;outline: none;}
+/*====== botton ======*/
+.btn{background-color:#c02329;-moz-border-radius:5px;-webkit-border-radius:5px;	border-radius:5px;display:inline-block;	cursor:pointer;
+	color:#ffffff !important;font-size:17px;padding:7px 25px;}
+	
+.btn:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+	background-color:#f24437;}
+	.btlink a {color:#ffffff !important;text-decoration:none !important;}
+	
+.bt{-moz-box-shadow: 0px 3px 0px 0px #233548;
+	-webkit-box-shadow: 0px 3px 0px 0px #233548;
+	box-shadow: 0px 3px 0px 0px #233548;	
+	background-color:#33485f;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff !important;
+	font-family:arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none !important;
+	text-shadow:0px 1px 0px #333; border:none !important;
+}
+.bt:hover{background-color:#445a71;}
