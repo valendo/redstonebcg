@@ -60,6 +60,7 @@ header .nav li a:hover,header .nav li.current_page_item a {color:#f0ff00}
 .footer .subfooter a:hover {color:#f0ff00}
 
 .footer .subfooter .social { float:right; margin-right:5px;}
+body:nth-of-type(1) .social{margin-right:11px;}
 .footer .subfooter .social a { text-align:center; margin-right:3px}
 .footer p { margin-bottom:5px}
 .subscribe {display:inline-block;}
