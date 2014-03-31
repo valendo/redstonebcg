@@ -48,7 +48,7 @@ function pw_map_shortcode( $atts ) {
 			var map_<?php echo $map_id; ?>;
 			// Create infoWindow
 			var infoWindow = new google.maps.InfoWindow({
-			    content: "<div style=' line-height:18px; height:100px; width:250px'><p style='font-sixe:18px; font-weight:bold'>Jason Jimenez </p><p>Address: 8323 Southwest Frwy #390 Houston, TX 77074</p><p>Email: jason@jasonjimenezinsurance.com</p><p>PHONE:713-270-0073 - 713-600-1404</p></div>"
+			    content: "<div style=' line-height:18px; height:100px; width:250px'><p style='font-sixe:18px; font-weight:bold'> Redstone Business Holdings LLC </p><p>Address: 8323 Southwest Frwy #390 Houston, TX 77074</p></div>"
 			});
 			function pw_run_map_<?php echo $map_id ; ?>(){
 				var location = new google.maps.LatLng("<?php echo $coordinates['lat']; ?>", "<?php echo $coordinates['lng']; ?>");
